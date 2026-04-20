@@ -1,6 +1,7 @@
 # Terraform state files
 *.tfstate
 *.tfstate.backup
+*.tfstate.*
 
 # Terraform variables files containing sensitive data
 .tfvars
