@@ -4,10 +4,11 @@
 *.tfstate.*
 
 # Terraform variables files containing sensitive data
-.tfvars
+*.tfvars
 
 # Local .terraform directories
 .terraform/
+.terraform.lock.hcl
 
 # Crash log files
 crash.log
