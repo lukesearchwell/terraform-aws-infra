@@ -14,3 +14,7 @@ This code will go through the following steps:
 2. Gets my current public IP
 3. Appends "/32"
 4. Uses `"[my public IP]"/32` in the security group rule.
+
+
+## Key pair naming
+terraform had issues with.pem?
