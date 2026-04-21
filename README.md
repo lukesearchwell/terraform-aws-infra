@@ -9,9 +9,13 @@
  │   └── notes.md
  |
  ├── 02-terraform-ec2-deployment
- |   
+ |   ├── main.tf
+ |   ├── outputs.tf
+ |   ├── variables.tf
+ │   └── notes.md 
  |
  └── README.md
 ```
 
-## Content Overview
+See full lab notes:
+https://github.com/lukesearchwell/aws-sysops-labs
