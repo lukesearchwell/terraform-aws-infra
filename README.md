@@ -1,4 +1,5 @@
 # terraform-aws-infra
+![Terraform Repo](https://img.shields.io/badge/Terraform-Repo-blue)
 
 ### Repository Structure
 
@@ -14,8 +15,19 @@
  |   ├── variables.tf
  │   └── notes.md 
  |
+ ├── 03-terraform-vpc-modules
+ |   ├── main.tf
+ |   ├── outputs.tf
+ |   ├── variables.tf
+ │   └── modules
+ |       ├── vpc
+ |           ├── main.tf
+ |           ├── outputs.tf
+ |           └── variables.tf
+ |
  └── README.md
 ```
 
 See full lab notes:
 https://github.com/lukesearchwell/aws-sysops-labs
+
