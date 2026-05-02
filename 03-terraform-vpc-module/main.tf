@@ -7,6 +7,14 @@ terraform {
         version = "~> 6.0"
     }
   }
+
+  backend "s3" {
+    bucket = "tf-state-sysops"
+    key = "vpc/terraform.tfstate"
+    region = "eu-west-1"
+    dynamodb_table = "tf-state-lock"
+    encrypt = true
+  }
 }
 
 provider "aws" {
